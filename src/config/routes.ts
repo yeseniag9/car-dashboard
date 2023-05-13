@@ -1,6 +1,5 @@
 import Home from '../pages/Home';
 import Dashboard from '../pages/Dashboard';
-import About from '../pages/About';
 
 interface RouteType {
     path: string,
@@ -21,12 +20,6 @@ const routes: RouteType[] = [
       component: Dashboard,
       name: "Dashboard",
       protected: true
-    },
-    {
-      path: "/about",
-      component: About,
-      name: "About",
-      protected: false
     },
 ];
 
