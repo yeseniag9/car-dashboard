@@ -28,7 +28,7 @@ function Navbar() {
     }
 
     return (
-        <nav className="flex items-center flex-wrap bg-teal-500 p-6">
+        <nav className="flex items-center flex-wrap bg-emerald-800 p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <Link to="/" className="font-semibold text-xl tracking-tight">Hot Wheel</Link> 
             </div>
