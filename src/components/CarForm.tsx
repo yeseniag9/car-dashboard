@@ -36,30 +36,32 @@ const CarForm = (props:CarFormProps) => {
   }
 
   return (
-    <div>
+    <div className="pb-6">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="make">Make</label> 
           <Input {...register('make')} name="make" placeholder="Make" />
         </div>
-        <div>
+        <div className="pt-3">
           <label htmlFor="model">Model</label> 
           <Input {...register('model')} name="model" placeholder="Model" />
         </div>
-        <div>
+        <div className="pt-3">
           <label htmlFor="year">Year</label> 
           <Input {...register('year')} name="year" placeholder="Year" />
         </div>
-        <div>
+        <div className="pt-3">
           <label htmlFor="color">Color</label> 
           <Input {...register('color')} name="color" placeholder="Color" />
-        </div>
-        <div className="flex p-1">
-        <Button 
-          className="flex justify-start m-g bg-slate-300 p-2 rounded hover:bg-slate-800 text-white"
-          >
-            Submit
-          </Button>
+        </div> 
+        <div className="flex justify-center">
+          <div>
+            <Button 
+            className="flex mb-12 bg-emerald-800 p-2 pl-7 pr-7 rounded hover:bg-slate-800 text-white mt-10"
+            >
+              Submit
+            </Button>
+          </div>
         </div>
       </form>
     </div>

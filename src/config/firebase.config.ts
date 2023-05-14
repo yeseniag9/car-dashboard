@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyAKAB9nokpTAiZPayq2lPlf-Dr3Yh7VtEQ",
-  authDomain: "react-cardashboard.firebaseapp.com",
-  projectId: "react-cardashboard",
-  storageBucket: "react-cardashboard.appspot.com",
-  messagingSenderId: "220862523725",
-  appId: "1:220862523725:web:c2a9fc4d15827ea66c6f04"
+  apiKey: "AIzaSyAfBGvNe-OkuWPHT8IeLaRv97XxkiFesww",
+  authDomain: "car-dashboard-17cf9.firebaseapp.com",
+  projectId: "car-dashboard-17cf9",
+  storageBucket: "car-dashboard-17cf9.appspot.com",
+  messagingSenderId: "1062148681350",
+  appId: "1:1062148681350:web:50a4541ef11e3fe6012b07"
 };
