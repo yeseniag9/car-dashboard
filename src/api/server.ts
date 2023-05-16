@@ -1,4 +1,4 @@
-const token = 'dbc5ceb40a9c61e5298b906c86cde8db3f2ddd05dd3c25f7'
+const token = '8d8d11dda55bcde1e44afd8cd629676da906fdfef9d74b97'
 
 export const server_calls = {
     get: async () => {
@@ -20,7 +20,7 @@ export const server_calls = {
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://omniscient-pie-trumpet.glitch.me/api/cars`,
+        const response = await fetch(`https://omniscient-pie-trumpet.glitch.me/api/car`,
         {
             method: "POST",
             headers: {
